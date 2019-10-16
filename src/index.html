@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script type="text/javascript" src="waypoint.js"></script>
+    <script defer type="text/javascript" src="script.js"></script>
+    <title>Portfolio</title>
+</head>
+<body>
+    <header>
+        <img class="element-background" src="./img/element-background.png">
+        <nav id="nav">
+            <ul>
+                <div id="nav__left">
+                    <a href="#nav"><li>Home</li></a>
+                    <a href="#projects"><li>Projects</li></a>
+                    <a href="#contact"><li>Contact</li></a>
+                </div>
+                <div class="nav__right">
+                    <img src="./img/facebook 1.png" alt="">
+                    <img src="./img/github logo 1.png" alt="">
+                    <img src="./img/linkedin 1.png" alt="">
+                </div>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <div class="container__left">
+                <div class="title">
+                    <p>Hey,</p>
+                    <p>I’m Lucas Moreno</p>
+                </div>
+                <div class="subtitle">
+                    <p>Aged 21, I am a student in the big school of the internet, HETIC.</p>
+                    <p>I am a creative web developer and I learn Front / Back and Web Design.</p>
+                </div>
+                <button class="button"><p>DISCOVER</p></button>
+            </div>
+            <div class="container__right">
+                <img src="./img/bonhomme.png" alt="">
+            </div>
+        </section>
+        <section class="test">
+        <section id="projects">
+            <div class="title__project">
+                <p>Projects</p>
+            </div>
+            <div class="carousel">
+                <img src="./img/Capture d’écran 2019-10-09 à 15.48 1.png" alt="">
+            </div>
+        </section>
+        <section data-aos="fade-up" data-aos-delay="300" id="contact">
+            <div class="title__contact">
+                <p>Contact</p>
+            </div>
+            <form class="form__contact">
+                <input type="text" name="name" id="name" placeholder="Pierre">
+                <input type="text" name="e-mail" id="e-mail" placeholder="exemple@gmail.com">
+                <input type="text" name="number" id="number" placeholder="06 34 34 34 34">
+                <textarea name="write" id="write" cols="30" rows="10" placeholder="Write here"></textarea>
+                <button class="button" type="submit">Send</button>
+                <img class="background__element--two" src="./img/Ellipse 4.png" alt="">
+                <img class="background__element--three" src="./img/Ellipse 3.png" alt="">
+            </form>
+        </section>
+        </div>
+    </main>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+</body>
+</html>
