@@ -83,6 +83,173 @@ ul li{
     margin-bottom: 8vh;
     width: 25vw;
 }
+#bubble:nth-child(1){
+    position: absolute;
+    bottom: 18%;
+    right: 50%;
+    animation-duration: 5s;
+    animation-name: moveTen;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+#bubble:nth-child(2){
+    position:absolute;
+    bottom: 0%;
+    right: 30%;
+    animation-duration: 7s;
+    animation-name: moveFour;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+#bubble:nth-child(3){
+    position:absolute;
+    bottom: 1%;
+    right: 90%;
+    animation-duration: 6s;
+    animation-name: moveEight;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+
+}
+#bubble:nth-child(4){
+    position:absolute;
+    bottom: 10%;
+    right: 5%;
+    animation-duration: 2s;
+    animation-name: moveSeven;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+#bubble:nth-child(5){
+    position:absolute;
+    bottom: 50%;
+    right: 92%;
+    animation-duration: 9s;
+    animation-name: moveSix;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+#bubble:nth-child(6){ /* good */
+    position:absolute;
+    bottom: 60%;
+    right: 18%;
+    animation-duration: 5s;
+    animation-name: moveFive;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+#bubble:nth-child(7){
+    position:absolute;
+    bottom: 70%;
+    right: 58%;
+    animation-duration: 3s;
+    animation-name: moveNine;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+#bubble:nth-child(8){
+    position:absolute;
+    bottom: 90%;
+    right: 40%;
+    animation-duration: 4s;
+    animation-name: moveThree;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+#bubble:nth-child(9){
+    position:absolute;
+    bottom: 90%;
+    right: 10%;
+    animation-duration: 8s;
+    animation-name: moveTwo;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+#bubble:nth-child(10){
+    position:absolute;
+    bottom: 100%;
+    right: 75%;
+    animation-duration: 3s;
+    animation-name: moveOne;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+@keyframes moveOne {
+    from { transform: translateX(0px); }
+    10%  { transform: translateX(-40px) translateY(-90px); }
+    50%  { transform: translateX(100px) translateY(200px); } 
+    90%  { transform: translateX(10px) translateY(30px); }
+    to   { transform: translateX(0px) translateY(0px); }
+    
+}
+@keyframes moveTwo {
+    from { transform: translateX(0px); }
+    50%  { transform: translateX(30px) translateY(-50px); } 
+    90%  { transform: translateX(100px) translateY(45px); }
+    to   { transform: translateX(0px) translateY(0px); }
+    
+}
+@keyframes moveThree {
+    from { transform: translateX(0px); }
+    50%  { transform: translateX(-50px) translateY(200px); } 
+    90%  { transform: translateX(10px) translateY(10px); }
+    to   { transform: translateX(0px) translateY(0px); }
+    
+}
+@keyframes moveFour {
+    from { transform: translateX(0px); }
+    50%  { transform: translateX(30px) translateY(90px); } 
+    90%  { transform: translateX(-90px) translateY(20px); }
+    to   { transform: translateX(0px) translateY(0px); }
+    
+}
+@keyframes moveFive { /* good */
+    from { transform: translateX(0px); }
+    50%  { transform: translateX(-200px) translateY(-60px); } 
+    90%  { transform: translateX(10px) translateY(80px); }
+    to   { transform: translateX(0px) translateY(0px); }
+    
+}
+@keyframes moveSix {
+    from { transform: translateX(0px); }
+    50%  { transform: translateX(70px) translateY(50px); } 
+    90%  { transform: translateX(-50px) translateY(-100px); }
+    to   { transform: translateX(0px) translateY(0px); }
+    
+}
+@keyframes moveSeven {
+    from { transform: translateX(0px); }
+    50%  { transform: translateX(-400px) translateY(50px); } 
+    90%  { transform: translateX(100px) translateY(30px); }
+    to   { transform: translateX(0px) translateY(0px); }
+    
+}
+@keyframes moveEight {
+    from { transform: translateX(0px); }
+    50%  { transform: translateX(-20px) translateY(60px); } 
+    90%  { transform: translateX(100px) translateY(-10px); }
+    to   { transform: translateX(0px) translateY(0px); }
+    
+}
+@keyframes moveNine {
+    from { transform: translateX(0px); }
+    50%  { transform: translateX(-120px) translateY(-40px); } 
+    90%  { transform: translateX(80px) translateY(100px); }
+    to   { transform: translateX(0px) translateY(0px); }
+    
+}
+@keyframes moveTen {
+    from { transform: translateX(0px); }
+    50%  { transform: translateX(300px) translateY(20px); } 
+    90%  { transform: translateX(20px) translateY(100px); }
+    to   { transform: translateX(0px) translateY(0px); }
+    
+}
+
+#bubble:hover
+{
+    transform: scale(1.2);
+}
 .button p{
     font-family: 'Montserrat', sans-serif;
     font-style: normal;

@@ -1,5 +1,6 @@
 const home = document.querySelector('#home');
 const nav = document.querySelector('#nav__left');
+const bubbles = document.querySelectorAll('#bubble');
 
 
 var waypoint = new Waypoint({
@@ -7,7 +8,7 @@ var waypoint = new Waypoint({
     handler: function(direction) {
         home.classList.toggle("invisible");
     },
-    offset: -370
+    offset: -330
   })
   var waypoint = new Waypoint({
     element: document.getElementById('home'),
@@ -16,3 +17,9 @@ var waypoint = new Waypoint({
     },
     offset: -500
   })
+
+
+
+
+
+  
